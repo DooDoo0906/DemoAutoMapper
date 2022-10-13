@@ -14,32 +14,10 @@ namespace DemoAutoMapper.Models
         {
             CreateMap<Employee, EmployeeModel>() ;
         }
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // you don’t want to map the RegistrationDate property of the Employee class, you can use the ForMember method that allows
+        // you don’t want to map the RegistrationDate property of the Employee class,
+        // you can use the ForMember method that allows
         // us to customize individual members of the class.
         //.ForMember(d => d.RegistrationDate, opt => opt.Ignore());
         //null

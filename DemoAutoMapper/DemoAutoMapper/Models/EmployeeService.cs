@@ -6,6 +6,8 @@ namespace DemoAutoMapper.Models
 {
     public class EmployeeService : IEmployeeService
     {
+        //AutoMapper has a service called IMapper that can be injected
+        //into any component or service to map objects from one type to another.
         private readonly IMapper mapper;
 
         public EmployeeService(IMapper mapper)
